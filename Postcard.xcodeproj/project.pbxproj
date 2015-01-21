@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D747E9311A6E902B00A6C7E0 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D747E9301A6E902B00A6C7E0 /* SagradaFamilia.jpeg */; };
+		D747E9331A6E903600A6C7E0 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D747E9321A6E903600A6C7E0 /* AlbertEinsteinStamp.jpg */; };
 		D7A2F31E1A65536900563869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A2F31D1A65536900563869 /* AppDelegate.swift */; };
 		D7A2F3201A65536900563869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A2F31F1A65536900563869 /* ViewController.swift */; };
 		D7A2F3231A65536900563869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A2F3211A65536900563869 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D747E9301A6E902B00A6C7E0 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		D747E9321A6E903600A6C7E0 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 		D7A2F3181A65536900563869 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A2F31C1A65536900563869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7A2F31D1A65536900563869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,7 +83,6 @@
 			children = (
 				D7A2F31D1A65536900563869 /* AppDelegate.swift */,
 				D7A2F31F1A65536900563869 /* ViewController.swift */,
-				D7A2F3211A65536900563869 /* Main.storyboard */,
 				D7A2F3241A65536900563869 /* Images.xcassets */,
 				D7A2F3261A65536900563869 /* LaunchScreen.xib */,
 				D7A2F31B1A65536900563869 /* Supporting Files */,
@@ -107,6 +110,9 @@
 		D7A2F3311A65536900563869 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D7A2F3211A65536900563869 /* Main.storyboard */,
+				D747E9321A6E903600A6C7E0 /* AlbertEinsteinStamp.jpg */,
+				D747E9301A6E902B00A6C7E0 /* SagradaFamilia.jpeg */,
 				D7A2F3321A65536900563869 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7A2F3231A65536900563869 /* Main.storyboard in Resources */,
+				D747E9311A6E902B00A6C7E0 /* SagradaFamilia.jpeg in Resources */,
+				D747E9331A6E903600A6C7E0 /* AlbertEinsteinStamp.jpg in Resources */,
 				D7A2F3281A65536900563869 /* LaunchScreen.xib in Resources */,
 				D7A2F3251A65536900563869 /* Images.xcassets in Resources */,
 			);
@@ -242,6 +250,7 @@
 				D7A2F3221A65536900563869 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../Postcard;
 			sourceTree = "<group>";
 		};
 		D7A2F3261A65536900563869 /* LaunchScreen.xib */ = {
@@ -338,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,6 +418,7 @@
 				D7A2F3391A65536900563869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7A2F33A1A65536900563869 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +427,7 @@
 				D7A2F33C1A65536900563869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
