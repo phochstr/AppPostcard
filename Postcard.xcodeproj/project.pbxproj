@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D747E9301A6E902B00A6C7E0 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
-		D747E9321A6E903600A6C7E0 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
+		D747E9301A6E902B00A6C7E0 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SagradaFamilia.jpeg; path = PostcardTests/SagradaFamilia.jpeg; sourceTree = SOURCE_ROOT; };
+		D747E9321A6E903600A6C7E0 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AlbertEinsteinStamp.jpg; path = PostcardTests/AlbertEinsteinStamp.jpg; sourceTree = SOURCE_ROOT; };
 		D7A2F3181A65536900563869 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A2F31C1A65536900563869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7A2F31D1A65536900563869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +81,7 @@
 		D7A2F31A1A65536900563869 /* Postcard */ = {
 			isa = PBXGroup;
 			children = (
+				D7A2F3211A65536900563869 /* Main.storyboard */,
 				D7A2F31D1A65536900563869 /* AppDelegate.swift */,
 				D7A2F31F1A65536900563869 /* ViewController.swift */,
 				D7A2F3241A65536900563869 /* Images.xcassets */,
@@ -93,6 +94,8 @@
 		D7A2F31B1A65536900563869 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D747E9301A6E902B00A6C7E0 /* SagradaFamilia.jpeg */,
+				D747E9321A6E903600A6C7E0 /* AlbertEinsteinStamp.jpg */,
 				D7A2F31C1A65536900563869 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,9 +113,6 @@
 		D7A2F3311A65536900563869 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D7A2F3211A65536900563869 /* Main.storyboard */,
-				D747E9321A6E903600A6C7E0 /* AlbertEinsteinStamp.jpg */,
-				D747E9301A6E902B00A6C7E0 /* SagradaFamilia.jpeg */,
 				D7A2F3321A65536900563869 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -250,7 +250,6 @@
 				D7A2F3221A65536900563869 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../Postcard;
 			sourceTree = "<group>";
 		};
 		D7A2F3261A65536900563869 /* LaunchScreen.xib */ = {
